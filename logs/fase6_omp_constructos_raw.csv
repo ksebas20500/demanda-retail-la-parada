@@ -1,0 +1,256 @@
+demo,variante,hilos,rep,t_s,error,nota
+data_sharing,reduction,2,0,0.00575,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,2,1,0.00595,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,2,2,0.00605,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,2,3,0.00635,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,2,4,0.00615,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,2,0,0.0072,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,2,1,0.00605,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,2,2,0.0064,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,2,3,0.0063,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,2,4,0.00605,5.525e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,2,0,0.2159,1.316e-14,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,2,1,0.2092,1.189e-14,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,2,2,0.20275,9.951e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,2,3,0.206,1.249e-14,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,2,4,0.2039,1.161e-14,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,2,0,0.0217,0.4528,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,2,1,0.02205,0.4307,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,2,2,0.02375,0.4194,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,2,3,0.02555,0.4088,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,2,4,0.0214,0.4386,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,6,0,0.0037,6.467e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,6,1,0.00355,6.457e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,6,2,0.00355,6.459e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,6,3,0.0036,6.452e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,6,4,0.0036,6.457e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,6,0,0.0038,6.463e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,6,1,0.00375,6.467e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,6,2,0.0042,6.459e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,6,3,0.0044,6.467e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,6,4,0.0043,6.471e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,6,0,0.2622,8.802e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,6,1,0.2555,7.041e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,6,2,0.2578,1.071e-14,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,6,3,0.2516,9.267e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,6,4,0.2531,9.738e-15,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,6,0,0.0305,0.7805,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,6,1,0.03135,0.7691,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,6,2,0.0307,0.7731,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,6,3,0.0306,0.7599,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,6,4,0.03145,0.7611,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,16,0,0.00415,6.402e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,16,1,0.00395,6.429e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,16,2,0.00385,6.426e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,16,3,0.00375,6.44e-15,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,16,4,0.0039,6.428e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,16,0,0.00415,6.429e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,16,1,0.00375,6.44e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,16,2,0.00435,6.432e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,16,3,0.00405,6.431e-15,error=||g-g_seq||/||g_seq||
+data_sharing,critical,16,4,0.00415,6.428e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,16,0,0.2824,7.895e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,16,1,0.2813,1.117e-14,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,16,2,0.28295,6.916e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,16,3,0.2827,7.554e-15,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,16,4,0.2825,7.775e-15,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,16,0,0.05265,0.7935,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,16,1,0.05125,0.7931,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,16,2,0.05105,0.8069,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,16,3,0.05,0.8022,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,16,4,0.0509,0.7696,error=||g-g_seq||/||g_seq||
+schedule_uniforme,static,6,0,0.0032,6.442e-15,carga uniforme
+schedule_uniforme,static,6,1,0.00335,6.459e-15,carga uniforme
+schedule_uniforme,static,6,2,0.00485,6.458e-15,carga uniforme
+schedule_uniforme,static,6,3,0.0045,6.467e-15,carga uniforme
+schedule_uniforme,static,6,4,0.0047,6.459e-15,carga uniforme
+schedule_uniforme,static-1,6,0,0.0072,5.994e-15,carga uniforme
+schedule_uniforme,static-1,6,1,0.00595,5.987e-15,carga uniforme
+schedule_uniforme,static-1,6,2,0.00565,5.979e-15,carga uniforme
+schedule_uniforme,static-1,6,3,0.0071,5.96e-15,carga uniforme
+schedule_uniforme,static-1,6,4,0.0073,5.986e-15,carga uniforme
+schedule_uniforme,static-64,6,0,0.0058,6.148e-15,carga uniforme
+schedule_uniforme,static-64,6,1,0.0059,6.157e-15,carga uniforme
+schedule_uniforme,static-64,6,2,0.0063,6.146e-15,carga uniforme
+schedule_uniforme,static-64,6,3,0.00415,6.127e-15,carga uniforme
+schedule_uniforme,static-64,6,4,0.00405,6.126e-15,carga uniforme
+schedule_uniforme,dynamic-64,6,0,0.0039,6.245e-15,carga uniforme
+schedule_uniforme,dynamic-64,6,1,0.00365,6.099e-15,carga uniforme
+schedule_uniforme,dynamic-64,6,2,0.004,6.323e-15,carga uniforme
+schedule_uniforme,dynamic-64,6,3,0.00415,6.277e-15,carga uniforme
+schedule_uniforme,dynamic-64,6,4,0.0039,6.286e-15,carga uniforme
+schedule_uniforme,dynamic-1024,6,0,0.0035,6.04e-15,carga uniforme
+schedule_uniforme,dynamic-1024,6,1,0.0037,6.081e-15,carga uniforme
+schedule_uniforme,dynamic-1024,6,2,0.0048,7.085e-15,carga uniforme
+schedule_uniforme,dynamic-1024,6,3,0.0045,6.294e-15,carga uniforme
+schedule_uniforme,dynamic-1024,6,4,0.0039,6.336e-15,carga uniforme
+schedule_uniforme,dynamic-16384,6,0,0.00355,6.021e-15,carga uniforme
+schedule_uniforme,dynamic-16384,6,1,0.0037,5.422e-15,carga uniforme
+schedule_uniforme,dynamic-16384,6,2,0.00345,6.179e-15,carga uniforme
+schedule_uniforme,dynamic-16384,6,3,0.00345,6.457e-15,carga uniforme
+schedule_uniforme,dynamic-16384,6,4,0.00445,6.683e-15,carga uniforme
+schedule_uniforme,guided-64,6,0,0.0043,5.903e-15,carga uniforme
+schedule_uniforme,guided-64,6,1,0.00455,6.141e-15,carga uniforme
+schedule_uniforme,guided-64,6,2,0.00455,5.916e-15,carga uniforme
+schedule_uniforme,guided-64,6,3,0.0042,6.342e-15,carga uniforme
+schedule_uniforme,guided-64,6,4,0.0044,6.285e-15,carga uniforme
+schedule_uniforme,static,16,0,0.0042,6.454e-15,carga uniforme
+schedule_uniforme,static,16,1,0.00395,6.452e-15,carga uniforme
+schedule_uniforme,static,16,2,0.0039,6.44e-15,carga uniforme
+schedule_uniforme,static,16,3,0.0043,6.439e-15,carga uniforme
+schedule_uniforme,static,16,4,0.00435,6.456e-15,carga uniforme
+schedule_uniforme,static-1,16,0,0.0103,6.079e-15,carga uniforme
+schedule_uniforme,static-1,16,1,0.01025,6.091e-15,carga uniforme
+schedule_uniforme,static-1,16,2,0.0058,6.079e-15,carga uniforme
+schedule_uniforme,static-1,16,3,0.00545,6.102e-15,carga uniforme
+schedule_uniforme,static-1,16,4,0.005,6.101e-15,carga uniforme
+schedule_uniforme,static-64,16,0,0.00425,5.897e-15,carga uniforme
+schedule_uniforme,static-64,16,1,0.00475,5.909e-15,carga uniforme
+schedule_uniforme,static-64,16,2,0.00515,5.868e-15,carga uniforme
+schedule_uniforme,static-64,16,3,0.0044,5.881e-15,carga uniforme
+schedule_uniforme,static-64,16,4,0.0046,5.915e-15,carga uniforme
+schedule_uniforme,dynamic-64,16,0,0.00415,6.047e-15,carga uniforme
+schedule_uniforme,dynamic-64,16,1,0.00415,5.529e-15,carga uniforme
+schedule_uniforme,dynamic-64,16,2,0.0045,5.749e-15,carga uniforme
+schedule_uniforme,dynamic-64,16,3,0.00405,5.941e-15,carga uniforme
+schedule_uniforme,dynamic-64,16,4,0.00435,5.705e-15,carga uniforme
+schedule_uniforme,dynamic-1024,16,0,0.00395,6.082e-15,carga uniforme
+schedule_uniforme,dynamic-1024,16,1,0.0036,5.843e-15,carga uniforme
+schedule_uniforme,dynamic-1024,16,2,0.00395,5.754e-15,carga uniforme
+schedule_uniforme,dynamic-1024,16,3,0.0037,5.826e-15,carga uniforme
+schedule_uniforme,dynamic-1024,16,4,0.0038,5.764e-15,carga uniforme
+schedule_uniforme,dynamic-16384,16,0,0.0039,5.854e-15,carga uniforme
+schedule_uniforme,dynamic-16384,16,1,0.00405,6.187e-15,carga uniforme
+schedule_uniforme,dynamic-16384,16,2,0.00405,5.91e-15,carga uniforme
+schedule_uniforme,dynamic-16384,16,3,0.00385,6.308e-15,carga uniforme
+schedule_uniforme,dynamic-16384,16,4,0.00395,5.788e-15,carga uniforme
+schedule_uniforme,guided-64,16,0,0.0039,5.894e-15,carga uniforme
+schedule_uniforme,guided-64,16,1,0.0038,6.025e-15,carga uniforme
+schedule_uniforme,guided-64,16,2,0.0041,6.091e-15,carga uniforme
+schedule_uniforme,guided-64,16,3,0.00415,5.68e-15,carga uniforme
+schedule_uniforme,guided-64,16,4,0.0042,5.688e-15,carga uniforme
+schedule_irregular,static,6,0,0.0234,6.471e-15,carga creciente con la fila
+schedule_irregular,static,6,1,0.024,6.471e-15,carga creciente con la fila
+schedule_irregular,static,6,2,0.0234,6.471e-15,carga creciente con la fila
+schedule_irregular,static,6,3,0.023,6.471e-15,carga creciente con la fila
+schedule_irregular,static,6,4,0.0228,6.471e-15,carga creciente con la fila
+schedule_irregular,static-1,6,0,0.0146,5.966e-15,carga creciente con la fila
+schedule_irregular,static-1,6,1,0.015,5.985e-15,carga creciente con la fila
+schedule_irregular,static-1,6,2,0.0144,5.993e-15,carga creciente con la fila
+schedule_irregular,static-1,6,3,0.0146,5.977e-15,carga creciente con la fila
+schedule_irregular,static-1,6,4,0.0144,5.989e-15,carga creciente con la fila
+schedule_irregular,static-64,6,0,0.013,6.137e-15,carga creciente con la fila
+schedule_irregular,static-64,6,1,0.0126,6.157e-15,carga creciente con la fila
+schedule_irregular,static-64,6,2,0.0146,6.129e-15,carga creciente con la fila
+schedule_irregular,static-64,6,3,0.0128,6.148e-15,carga creciente con la fila
+schedule_irregular,static-64,6,4,0.0136,6.145e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,6,0,0.0126,6.252e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,6,1,0.0128,6.019e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,6,2,0.0124,6.2e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,6,3,0.0128,6.22e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,6,4,0.0132,6.37e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,6,0,0.0124,5.746e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,6,1,0.0126,6.313e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,6,2,0.0128,6.812e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,6,3,0.0132,6.254e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,6,4,0.0132,5.516e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,6,0,0.0136,6.402e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,6,1,0.0136,6.402e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,6,2,0.0138,6.238e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,6,3,0.0136,6.419e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,6,4,0.0138,6.52e-15,carga creciente con la fila
+schedule_irregular,guided-64,6,0,0.0126,6.094e-15,carga creciente con la fila
+schedule_irregular,guided-64,6,1,0.0122,6.068e-15,carga creciente con la fila
+schedule_irregular,guided-64,6,2,0.0122,6.166e-15,carga creciente con la fila
+schedule_irregular,guided-64,6,3,0.012,6.009e-15,carga creciente con la fila
+schedule_irregular,guided-64,6,4,0.012,5.978e-15,carga creciente con la fila
+schedule_irregular,static,16,0,0.0112,6.412e-15,carga creciente con la fila
+schedule_irregular,static,16,1,0.011,6.439e-15,carga creciente con la fila
+schedule_irregular,static,16,2,0.012,6.451e-15,carga creciente con la fila
+schedule_irregular,static,16,3,0.011,6.439e-15,carga creciente con la fila
+schedule_irregular,static,16,4,0.0112,6.417e-15,carga creciente con la fila
+schedule_irregular,static-1,16,0,0.0102,6.091e-15,carga creciente con la fila
+schedule_irregular,static-1,16,1,0.0128,6.111e-15,carga creciente con la fila
+schedule_irregular,static-1,16,2,0.0106,6.096e-15,carga creciente con la fila
+schedule_irregular,static-1,16,3,0.0104,6.097e-15,carga creciente con la fila
+schedule_irregular,static-1,16,4,0.0104,6.084e-15,carga creciente con la fila
+schedule_irregular,static-64,16,0,0.0092,5.895e-15,carga creciente con la fila
+schedule_irregular,static-64,16,1,0.0088,5.905e-15,carga creciente con la fila
+schedule_irregular,static-64,16,2,0.009,5.883e-15,carga creciente con la fila
+schedule_irregular,static-64,16,3,0.0092,5.919e-15,carga creciente con la fila
+schedule_irregular,static-64,16,4,0.0088,5.887e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,16,0,0.0074,5.96e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,16,1,0.0074,5.756e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,16,2,0.0074,5.833e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,16,3,0.0072,5.697e-15,carga creciente con la fila
+schedule_irregular,dynamic-64,16,4,0.0072,5.74e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,16,0,0.0072,5.704e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,16,1,0.007,5.915e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,16,2,0.0072,5.82e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,16,3,0.007,5.882e-15,carga creciente con la fila
+schedule_irregular,dynamic-1024,16,4,0.0078,5.691e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,16,0,0.0086,5.723e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,16,1,0.0086,6.21e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,16,2,0.009,5.904e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,16,3,0.0086,5.799e-15,carga creciente con la fila
+schedule_irregular,dynamic-16384,16,4,0.0086,6.007e-15,carga creciente con la fila
+schedule_irregular,guided-64,16,0,0.007,5.834e-15,carga creciente con la fila
+schedule_irregular,guided-64,16,1,0.008,5.905e-15,carga creciente con la fila
+schedule_irregular,guided-64,16,2,0.0068,5.642e-15,carga creciente con la fila
+schedule_irregular,guided-64,16,3,0.007,5.718e-15,carga creciente con la fila
+schedule_irregular,guided-64,16,4,0.0068,5.845e-15,carga creciente con la fila
+sections,secuencial,1,0,0.00965,0.0,val+test+train
+sections,parallel_sections,3,0,0.0083,0.0,3 sections
+sections,secuencial,1,1,0.01635,0.0,val+test+train
+sections,parallel_sections,3,1,0.00775,0.0,3 sections
+sections,secuencial,1,2,0.00975,0.0,val+test+train
+sections,parallel_sections,3,2,0.0073,0.0,3 sections
+sections,secuencial,1,3,0.0101,0.0,val+test+train
+sections,parallel_sections,3,3,0.00745,0.0,3 sections
+sections,secuencial,1,4,0.0098,0.0,val+test+train
+sections,parallel_sections,3,4,0.0073,0.0,3 sections
+single_region,parallel_for_por_epoca,2,0,1.452,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,2,0,1.4,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,2,1,1.687,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,2,1,1.665,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,2,2,1.63,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,2,2,1.646,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,2,3,1.689,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,2,3,1.671,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,2,4,1.663,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,2,4,1.673,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,6,0,1.322,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,6,0,1.408,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,6,1,1.352,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,6,1,1.383,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,6,2,1.34,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,6,2,1.416,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,6,3,1.392,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,6,3,1.383,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,6,4,1.306,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,6,4,1.28,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,16,0,1.28,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,16,0,1.459,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,16,1,1.482,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,16,1,1.398,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,16,2,1.314,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,16,2,1.457,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,16,3,1.44,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,16,3,1.335,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,16,4,1.169,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,16,4,1.303,0.0,error=max|w-w_1hilo|
+tasks,task_bloque_1024,6,0,0.00365,5.88e-15,parallel+single+task
+tasks,task_bloque_1024,6,1,0.0037,5.96e-15,parallel+single+task
+tasks,task_bloque_1024,6,2,0.00325,5.902e-15,parallel+single+task
+tasks,task_bloque_1024,6,3,0.0039,5.872e-15,parallel+single+task
+tasks,task_bloque_1024,6,4,0.0041,6.013e-15,parallel+single+task
+tasks,task_bloque_16384,6,0,0.00405,6.034e-15,parallel+single+task
+tasks,task_bloque_16384,6,1,0.00365,6.052e-15,parallel+single+task
+tasks,task_bloque_16384,6,2,0.0042,6.037e-15,parallel+single+task
+tasks,task_bloque_16384,6,3,0.00405,6.024e-15,parallel+single+task
+tasks,task_bloque_16384,6,4,0.00355,6.043e-15,parallel+single+task
+tasks,task_bloque_65536,6,0,0.00415,5.795e-15,parallel+single+task
+tasks,task_bloque_65536,6,1,0.0036,5.799e-15,parallel+single+task
+tasks,task_bloque_65536,6,2,0.00345,5.804e-15,parallel+single+task
+tasks,task_bloque_65536,6,3,0.00345,5.79e-15,parallel+single+task
+tasks,task_bloque_65536,6,4,0.00355,5.795e-15,parallel+single+task

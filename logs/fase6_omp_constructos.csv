@@ -1,0 +1,52 @@
+demo,variante,hilos,t_media,t_std,error,nota
+data_sharing,reduction,2,0.00605,0.000224,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,critical,2,0.0064,0.000473,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,2,0.20755,0.005273,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,2,0.02289,0.001743,0.4528,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,6,0.0036,6.1e-05,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,critical,6,0.00409,0.000297,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,6,0.25604,0.004174,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,6,0.03092,0.000445,0.7805,error=||g-g_seq||/||g_seq||
+data_sharing,reduction,16,0.00392,0.000148,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,critical,16,0.00409,0.000219,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,atomic,16,0.28237,0.000634,0.0,error=||g-g_seq||/||g_seq||
+data_sharing,carrera_sin_proteccion,16,0.05117,0.000956,0.8069,error=||g-g_seq||/||g_seq||
+schedule_uniforme,static,6,0.00412,0.000783,0.0,carga uniforme
+schedule_uniforme,static-1,6,0.00664,0.000777,0.0,carga uniforme
+schedule_uniforme,static-64,6,0.00524,0.001058,0.0,carga uniforme
+schedule_uniforme,dynamic-64,6,0.00392,0.000182,0.0,carga uniforme
+schedule_uniforme,dynamic-1024,6,0.00408,0.00055,0.0,carga uniforme
+schedule_uniforme,dynamic-16384,6,0.00372,0.000421,0.0,carga uniforme
+schedule_uniforme,guided-64,6,0.0044,0.000154,0.0,carga uniforme
+schedule_uniforme,static,16,0.00414,0.000204,0.0,carga uniforme
+schedule_uniforme,static-1,16,0.00736,0.002676,0.0,carga uniforme
+schedule_uniforme,static-64,16,0.00463,0.000347,0.0,carga uniforme
+schedule_uniforme,dynamic-64,16,0.00424,0.000182,0.0,carga uniforme
+schedule_uniforme,dynamic-1024,16,0.0038,0.000154,0.0,carga uniforme
+schedule_uniforme,dynamic-16384,16,0.00396,8.9e-05,0.0,carga uniforme
+schedule_uniforme,guided-64,16,0.00403,0.000172,0.0,carga uniforme
+schedule_irregular,static,6,0.02332,0.00046,0.0,carga creciente con la fila
+schedule_irregular,static-1,6,0.0146,0.000245,0.0,carga creciente con la fila
+schedule_irregular,static-64,6,0.01332,0.000807,0.0,carga creciente con la fila
+schedule_irregular,dynamic-64,6,0.01276,0.000297,0.0,carga creciente con la fila
+schedule_irregular,dynamic-1024,6,0.01284,0.000358,0.0,carga creciente con la fila
+schedule_irregular,dynamic-16384,6,0.01368,0.00011,0.0,carga creciente con la fila
+schedule_irregular,guided-64,6,0.0122,0.000245,0.0,carga creciente con la fila
+schedule_irregular,static,16,0.01128,0.000415,0.0,carga creciente con la fila
+schedule_irregular,static-1,16,0.01088,0.001083,0.0,carga creciente con la fila
+schedule_irregular,static-64,16,0.009,0.0002,0.0,carga creciente con la fila
+schedule_irregular,dynamic-64,16,0.00732,0.00011,0.0,carga creciente con la fila
+schedule_irregular,dynamic-1024,16,0.00724,0.000329,0.0,carga creciente con la fila
+schedule_irregular,dynamic-16384,16,0.00868,0.000179,0.0,carga creciente con la fila
+schedule_irregular,guided-64,16,0.00712,0.000502,0.0,carga creciente con la fila
+sections,secuencial,1,0.01113,0.002923,0.0,val+test+train
+sections,parallel_sections,3,0.00762,0.000422,0.0,3 sections
+single_region,parallel_for_por_epoca,2,1.6242,0.099165,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,2,1.611,0.118434,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,6,1.3424,0.032784,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,6,1.374,0.054585,0.0,error=max|w-w_1hilo|
+single_region,parallel_for_por_epoca,16,1.337,0.126131,0.0,error=max|w-w_1hilo|
+single_region,region_unica+single,16,1.3904,0.070546,0.0,error=max|w-w_1hilo|
+tasks,task_bloque_1024,6,0.00372,0.000317,0.0,parallel+single+task
+tasks,task_bloque_16384,6,0.0039,0.000283,0.0,parallel+single+task
+tasks,task_bloque_65536,6,0.00364,0.000292,0.0,parallel+single+task
