@@ -1,0 +1,24 @@
+# --- Datos regenerables (python src/generar_datos.py / la interfaz los crea solos) ---
+data/*.csv
+data/proc/
+data/modelos/
+data/externos/trm_raw.csv
+
+# --- Binarios compilados (se recrean con build/compilar_todo.bat) ---
+build/*.exe
+build/*.obj
+build/*.lib
+build/*.exp
+build/*.pdb
+build/*.ilk
+
+# --- Entornos, caches y artefactos ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+*.tmp
