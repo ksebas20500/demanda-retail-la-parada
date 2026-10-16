@@ -1,0 +1,25 @@
+fecha_ejecucion,fase,script,config,resultado
+2026-10-13T20:38:03,1,generar_datos.py,"{""tamano"": ""10k"", ""comercios"": 7, ""seed"": 42, ""trm"": ""simulada""}",filas=11088; demanda_media=335.38; seg=0.0
+2026-10-13T20:38:03,1,generar_datos.py,"{""tamano"": ""100k"", ""comercios"": 63, ""seed"": 42, ""trm"": ""simulada""}",filas=99792; demanda_media=429.06; seg=0.2
+2026-10-13T20:38:05,1,generar_datos.py,"{""tamano"": ""1M"", ""comercios"": 631, ""seed"": 42, ""trm"": ""simulada""}",filas=999504; demanda_media=408.90; seg=2.1
+2026-10-13T20:38:30,1,explorar_datos.py,"{""dataset"": ""100k"", ""seed"": 42}","{""R2_mes_x_categoria"": 0.1454, ""R2_mes_permutado_control"": 0.0014, ""R2_tipo_evento"": 0.4152, ""CV_medio_por_serie"": 0.481, ""pico_dic_vs_media_agregada"": 1.234}"
+2026-10-13T20:40:46,1,generar_datos.py,"{""tamano"": ""10k"", ""comercios"": 7, ""seed"": 42, ""trm"": ""real_datos.gov.co_TRM""}",filas=11088; demanda_media=281.97; seg=0.0
+2026-10-13T20:40:46,1,generar_datos.py,"{""tamano"": ""100k"", ""comercios"": 63, ""seed"": 42, ""trm"": ""real_datos.gov.co_TRM""}",filas=99792; demanda_media=432.23; seg=0.2
+2026-10-13T20:40:48,1,generar_datos.py,"{""tamano"": ""1M"", ""comercios"": 631, ""seed"": 42, ""trm"": ""real_datos.gov.co_TRM""}",filas=999504; demanda_media=412.76; seg=1.8
+2026-10-13T20:40:50,1,explorar_datos.py,"{""dataset"": ""100k"", ""seed"": 42}","{""R2_mes_x_categoria"": 0.1393, ""R2_mes_permutado_control"": 0.0014, ""R2_tipo_evento"": 0.4014, ""CV_medio_por_serie"": 0.478, ""pico_dic_vs_media_agregada"": 1.24}"
+2026-10-13T20:56:39,2,baseline.py,"{""reps"": 3, ""epochs"": 300, ""lr"": 0.05, ""l2"": 0.0001, ""seed"": 42, ""hilos"": 1, ""cpu"": ""Intel64 Family 6 Model 151 Stepping 2, GenuineIntel""}",ver logs/fase2_baseline.csv
+2026-10-13T20:58:37,3,run_openmp.py,"{""reps"": 5, ""hilos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""gcc 16.1 -O3 -march=native -fopenmp"", ""cpu"": ""i5-12600KF 10c/16t""}",ver logs/fase3_openmp.csv
+2026-10-13T21:00:03,3,run_openmp.py,"{""reps"": 5, ""hilos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""gcc 16.1 -O3 -march=native -fopenmp"", ""cpu"": ""i5-12600KF 10c/16t""}",ver logs/fase3_openmp.csv
+2026-10-13T21:03:40,4,run_mpi.py,"{""reps"": 5, ""procesos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""MSVC /O2 /arch:AVX2 /fp:fast + MS-MPI 10.1""}",ver logs/fase4_mpi.csv
+2026-10-13T21:05:19,4,run_cuda.py,"{""reps"": 5, ""batches"": {""10k"": [0, 2048], ""100k"": [0, 16384, 4096], ""1M"": [0, 262144, 65536, 16384]}, ""nvcc"": ""13.4 -O3 sm_75"", ""gpu"": ""RTX 2060 6GB""}",ver logs/fase4_cuda.csv
+2026-10-13T21:06:25,2,baseline.py,"{""reps"": 5, ""epochs"": 300, ""lr"": 0.05, ""l2"": 0.0001, ""seed"": 42, ""hilos"": 1, ""cpu"": ""Intel64 Family 6 Model 151 Stepping 2, GenuineIntel""}",ver logs/fase2_baseline.csv
+2026-10-13T21:07:33,3,run_openmp.py,"{""reps"": 5, ""hilos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""gcc 16.1 -O3 -march=native -fopenmp"", ""cpu"": ""i5-12600KF 10c/16t""}",ver logs/fase3_openmp.csv
+2026-10-13T21:09:04,4,run_mpi.py,"{""reps"": 5, ""procesos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""MSVC /O2 /arch:AVX2 /fp:fast + MS-MPI 10.1""}",ver logs/fase4_mpi.csv
+2026-10-13T21:10:04,4,run_cuda.py,"{""reps"": 5, ""batches"": {""10k"": [0, 2048], ""100k"": [0, 16384, 4096], ""1M"": [0, 262144, 65536, 16384]}, ""nvcc"": ""13.4 -O3 sm_75"", ""gpu"": ""RTX 2060 6GB""}",ver logs/fase4_cuda.csv
+2026-10-13T21:23:57,6,run_omp_constructos.py,"{""tam"": ""100k"", ""reps"": 2, ""pasadas"": 5, ""gcc"": ""-O3 -march=native -fopenmp""}",ver logs/fase6_omp_constructos.csv
+2026-10-13T21:27:51,6,run_omp_constructos.py,"{""tam"": ""1M"", ""reps"": 5, ""pasadas"": 20, ""gcc"": ""-O3 -march=native -fopenmp""}",ver logs/fase6_omp_constructos.csv
+2026-10-13T21:30:20,2,baseline.py,"{""reps"": 5, ""epochs"": 300, ""lr"": 0.05, ""l2"": 0.0001, ""seed"": 42, ""hilos"": 1, ""cpu"": ""Intel64 Family 6 Model 151 Stepping 2, GenuineIntel""}",ver logs/fase2_baseline.csv
+2026-10-13T21:31:43,3,run_openmp.py,"{""reps"": 5, ""hilos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""gcc 16.1 -O3 -march=native -fopenmp"", ""cpu"": ""i5-12600KF 10c/16t""}",ver logs/fase3_openmp.csv
+2026-10-13T21:33:40,4,run_mpi.py,"{""reps"": 5, ""procesos"": [1, 2, 4, 6, 8, 10, 12, 16], ""compilador"": ""MSVC /O2 /arch:AVX2 /fp:fast + MS-MPI 10.1""}",ver logs/fase4_mpi.csv
+2026-10-13T21:34:50,4,run_cuda.py,"{""reps"": 5, ""batches"": {""10k"": [0, 2048], ""100k"": [0, 16384, 4096], ""1M"": [0, 262144, 65536, 16384]}, ""nvcc"": ""13.4 -O3 sm_75"", ""gpu"": ""RTX 2060 6GB""}",ver logs/fase4_cuda.csv
+2026-10-13T21:37:49,6,run_omp_constructos.py,"{""tam"": ""1M"", ""reps"": 5, ""pasadas"": 20, ""gcc"": ""-O3 -march=native -fopenmp""}",ver logs/fase6_omp_constructos.csv
