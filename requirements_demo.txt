@@ -1,0 +1,5 @@
+# Versiones con las que se probo el sistema (Python 3.12). Necesita Python 3.11 o superior.
+numpy==2.5.4
+pandas==3.0.6
+plotly==7.1.0
+streamlit==1.65.0
